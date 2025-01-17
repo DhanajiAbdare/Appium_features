@@ -15,6 +15,7 @@ public class AddToCartDemo extends BaseTest {
 	@Test
 	public void addToCartTest() throws Exception
 	{
+		//new commit
 		driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Dhananjay");
 		//to hide the keyboard automatic
 		driver.hideKeyboard();
