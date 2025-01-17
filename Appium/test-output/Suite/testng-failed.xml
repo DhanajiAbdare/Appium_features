@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HKB_Appium Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.HKB_Appium">
+        <methods>
+          <include name="configAppium"/>
+        </methods>
+      </class> <!-- hkbdevelopment.HKB_Appium -->
+    </classes>
+  </test> <!-- HKB_Appium Test(failed) -->
+  <test thread-count="5" name="ChildTest Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.ChildTest">
+        <methods>
+          <include name="configAppium"/>
+          <include name="actual_Automation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- hkbdevelopment.ChildTest -->
+    </classes>
+  </test> <!-- ChildTest Test(failed) -->
+  <test thread-count="5" name="dataProvider_FillForm Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.dataProvider_FillForm">
+        <methods>
+          <include name="preSetup"/>
+          <include name="configAppium"/>
+          <include name="fillFormTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- hkbdevelopment.dataProvider_FillForm -->
+    </classes>
+  </test> <!-- dataProvider_FillForm Test(failed) -->
+  <test thread-count="5" name="ValidateAmount Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.ValidateAmount">
+        <methods>
+          <include name="validateAmountTest"/>
+          <include name="configAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- hkbdevelopment.ValidateAmount -->
+    </classes>
+  </test> <!-- ValidateAmount Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
